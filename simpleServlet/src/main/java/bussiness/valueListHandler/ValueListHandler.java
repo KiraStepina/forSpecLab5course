@@ -30,6 +30,7 @@ public class ValueListHandler implements ValueListIterator {
     public List getPreviousElements(int count) {
         List<Client> list = clientDAO.find(this.left - count, this.left);
         left = this.left - count;
+
         return list;
     }
 
