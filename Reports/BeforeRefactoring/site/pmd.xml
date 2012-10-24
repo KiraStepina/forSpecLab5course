@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-10-24T16:25:08.055">
+<file name="D:\Temp_Kira\&#x421;&#x44b;&#x441;&#x43e;&#x439;\simpleServlet\src\main\java\bussiness\Cache\UoWImpl.java">
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="29" rule="UnusedImports" ruleset="Import Statement Rules" package="bussiness.Cache" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.crypto.Data'
+</violation>
+</file>
+<file name="D:\Temp_Kira\&#x421;&#x44b;&#x441;&#x43e;&#x439;\simpleServlet\src\main\java\presentation\EditServlet.java">
+<violation beginline="25" endline="27" begincolumn="13" endcolumn="5" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="presentation" class="EditServlet" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused method parameters such as 'request'.
+</violation>
+<violation beginline="25" endline="27" begincolumn="13" endcolumn="5" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="presentation" class="EditServlet" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused method parameters such as 'response'.
+</violation>
+</file>
+<file name="D:\Temp_Kira\&#x421;&#x44b;&#x441;&#x43e;&#x439;\simpleServlet\src\main\java\presentation\SimpleServlet.java">
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="51" rule="UnusedImports" ruleset="Import Statement Rules" package="presentation" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'bussiness.valueListHandler.ValueListHandler'
+</violation>
+</file>
+</pmd>
