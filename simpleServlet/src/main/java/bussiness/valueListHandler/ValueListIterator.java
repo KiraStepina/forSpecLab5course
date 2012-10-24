@@ -13,8 +13,12 @@ import java.util.List;
  */
 public interface ValueListIterator {
     public int getSize();
+
     public List<Client> getPreviousElements(int count);
+
     public List<Client> getNextElements(int count);
+
     public List<Client> getFirstElement(int count);
+
     public List<Client> getLastElement(int count);
 }

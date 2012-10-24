@@ -13,7 +13,7 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class ValueListHandler implements ValueListIterator {
-    private ClientDAO clientDAO;
+    private final ClientDAO clientDAO;
     private int left;
 
     public ValueListHandler() {
@@ -30,7 +30,6 @@ public class ValueListHandler implements ValueListIterator {
     public List getPreviousElements(int count) {
         List<Client> list = clientDAO.find(this.left - count, this.left);
         left = this.left - count;
-
         return list;
     }
 

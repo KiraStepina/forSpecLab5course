@@ -1,16 +1,24 @@
 package bussiness;
 
 /**
- * Created by IntelliJ IDEA.
- * User: HomeUser
- * Date: 29.9.12
- * Time: 13.17
- * To change this template use File | Settings | File Templates.
+ * @author HomeUser
+ *         Date: 29.9.12
+ *         Time: 13.17
  */
 public class Client {
+
+    private String id;
     private String name;
     private String address;
     private String telephone;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -35,8 +43,8 @@ public class Client {
     public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
+
     public String toString() {
-        String result = String.format("<client><name>%1$s</name><address>%2$s</address><telephone>%3$s</telephone></client>", name, address, telephone);
-        return result;
+        return String.format("<client><name>%1$s</name><address>%2$s</address><telephone>%3$s</telephone></client>", name, address, telephone);
     }
 }

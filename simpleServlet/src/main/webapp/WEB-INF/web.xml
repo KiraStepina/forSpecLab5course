@@ -3,17 +3,24 @@
 
     <servlet>
         <servlet-name>simpleServlet</servlet-name>
-        <servlet-class>forServlet.SimpleServlet</servlet-class>
+        <servlet-class>presentation.SimpleServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>simpleServlet</servlet-name>
         <url-pattern>/simple</url-pattern>
     </servlet-mapping>
-
     <servlet>
         <servlet-name>listServlet</servlet-name>
-        <servlet-class>forServlet.ListServlet</servlet-class>
+        <servlet-class>presentation.ListServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>editServlet</servlet-name>
+        <servlet-class>presentation.EditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editServlet</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>listServlet</servlet-name>
         <url-pattern>/list</url-pattern>

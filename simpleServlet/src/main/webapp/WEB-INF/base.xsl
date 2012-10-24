@@ -45,7 +45,7 @@
                                 </form>
                             </div>
                             <div style="display:block">
-                            <a href="/">Register again</a>
+                                <a href="/">Register again</a>
                             </div>
                         </td>
                     </tr>
