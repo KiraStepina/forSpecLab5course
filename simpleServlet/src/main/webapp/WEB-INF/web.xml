@@ -1,0 +1,22 @@
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>simpleServlet</servlet-name>
+        <servlet-class>forServlet.SimpleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>simpleServlet</servlet-name>
+        <url-pattern>/simple</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>listServlet</servlet-name>
+        <servlet-class>forServlet.ListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>listServlet</servlet-name>
+        <url-pattern>/list</url-pattern>
+    </servlet-mapping>
+</web-app>
+
